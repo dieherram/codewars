@@ -10,9 +10,9 @@ Codewars es una plataforma en línea que ofrece una amplia variedad de desafíos
 
 Aquí hay un vistazo a cómo se ve Codewars:
 
-![Codewars Screenshot 1](screenshot1.png)
+![Codewars Screenshot 1](./Screenshot1.png)
 
-![Codewars Screenshot 2](screenshot2.png)
+![Codewars Screenshot 2](./Screenshot2.png)
 
 ## Motivación 💪
 

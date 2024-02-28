@@ -26,7 +26,7 @@ En este repositorio, encontrarás una carpeta específica para JavaScript donde 
 
 ¡Siéntete libre de explorar los desafíos, revisar mi código y proporcionar retroalimentación constructiva! También estoy abierto a colaboraciones en la resolución de desafíos o en la mejora de las soluciones existentes.
 
-## ¡Únete a Mí! 👨‍💻
+## ¡Únete! 👨‍💻
 
 Si te apasiona la programación y la resolución de problemas en JavaScript, te invito a unirte a mí en Codewars. Juntos podemos desafiarnos mutuamente, aprender y crecer como desarrolladores de software.
 

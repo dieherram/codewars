@@ -159,3 +159,25 @@ You can use if..else or ternary operator to complete it. */
 
 //Solution
 const saleHotdogs = (n) => n < 5 ? n * 100 : n >= 5 && n < 10 ? n * 95 : n * 90
+
+/*
+
+Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.
+Examples
+
+"hello"     -->  "hll"
+"codewars"  -->  "cdwrs"
+"goodbye"   -->  "gdby"
+"HELLO"     -->  "HELLO"
+
+don't worry about uppercase vowels
+y is not considered a vowel for this kata */
+
+//Solution
+function shortcut(string) {
+  const stringArray = string.split('')
+  const vowelsArray = new Set('aeiou')
+  const stringFiltered = stringArray.filter(stringElement => !vowelsArray.has(stringElement)).join('')
+
+  return stringFiltered;
+}

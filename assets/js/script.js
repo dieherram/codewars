@@ -212,3 +212,14 @@ Note: base is a non-negative number, factor is a positive number.
 
 //Solution
 const checkForFactor = (base, factor) => base % factor === 0 ? true : false
+
+/*
+
+Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
+
+Return your answer as a number.
+
+*/
+
+//Solution
+const sumMix = (x) => x.reduce((accumulator, currentValue) => accumulator + Number(currentValue), 0)

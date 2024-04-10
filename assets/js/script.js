@@ -223,3 +223,12 @@ Return your answer as a number.
 
 //Solution
 const sumMix = (x) => x.reduce((accumulator, currentValue) => accumulator + Number(currentValue), 0)
+
+/*
+
+Now you have to write a function that takes an argument and returns the square of it.
+
+*/
+
+//Solution
+const square = (num) => num * num

@@ -279,3 +279,22 @@ const pipeFix = (numbers) => {
   }
   return numbersArray
 }
+
+/*
+
+Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
+Examples
+
+"This is an example!" ==> "sihT si na !elpmaxe"
+"double  spaces"      ==> "elbuod  secaps"
+
+*/
+
+//Solution
+const reverseWords = (str) => {
+  strArrayReverse = str.split(' ')
+  const newStr = strArrayReverse.map(element => {
+    return element.split('').reverse().join('')
+  })
+  return newStr.join(' ')
+}

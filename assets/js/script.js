@@ -331,3 +331,25 @@ For ASCII table, you can refer to http://www.asciitable.com/
 
 //Solution
 const getChar = (c) => String.fromCharCode(c)
+
+/*
+
+Complete the solution so that the function will break up camel casing, using a space between words.
+Example
+
+"camelCasing"  =>  "camel Casing"
+"identifier"   =>  "identifier"
+""             =>  ""
+
+*/
+
+//Solution
+const solution = (string) => {
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz'.toUpperCase().split('')
+  const stringArray = string.split('')
+  const stringFilter = stringArray.map(element => {
+    const found = alphabet.find(item => element === item)
+    return found ? ` ${element}` : element
+  })
+  return stringFilter.join("");
+}

@@ -369,3 +369,22 @@ Examples:(Input1, Input2 --> Output (explanation)))
 
 //Solution
 const addBinary = (a, b) => (a + b).toString(2)
+
+/*
+
+The main idea is to count all the occurring characters in a string. If you have a string like aba, then the result should be {'a': 2, 'b': 1}.
+
+What if the string is empty? Then the result should be empty object literal, {}.
+
+*/
+
+//Solution
+const count = (string) => {
+  let CharacterCount = {}
+
+  for (let character of string) {
+    CharacterCount[character] ? CharacterCount[character]++ : CharacterCount[character] = 1
+  }
+
+  return string === '' ? {} : CharacterCount
+}
